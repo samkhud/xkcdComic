@@ -2,7 +2,7 @@
 
 A flutter app that show random XKCD comics to the user.
 
-##Features:
+## Features:
 
 1. The app shows random XKCD comics to the user.
 2. The user can like or dislike  a comic.
