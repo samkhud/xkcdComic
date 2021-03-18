@@ -1,16 +1,10 @@
-# comics
+# Comics
 
-A new Flutter project.
+A flutter app that show random XKCD comics to the user.
 
-## Getting Started
+##Features:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. The app shows random XKCD comics to the user.
+2. The user can like or dislike  a comic.
+3. The liked comics are saved and shown in the Favourite tab.
+4. The disliked comics are discarded.
