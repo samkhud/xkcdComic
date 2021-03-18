@@ -1,4 +1,3 @@
-import 'dart:math';
 
 import 'package:comics/bloc/BlockProvider.dart';
 import 'package:comics/bloc/ComicsBloc.dart';

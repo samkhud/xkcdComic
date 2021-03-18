@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sameralkhodary/programming/flutter/comics/comics/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/sameralkhodary/programming/flutter/comics/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/sameralkhodary/programming/flutter/comics/comics/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/sameralkhodary/programming/flutter/comics/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
