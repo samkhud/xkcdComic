@@ -1,6 +1,6 @@
 
 import 'package:comics/pages/FavouriteWidget.dart';
-import 'package:comics/pages/ListWidget.dart';
+import 'package:comics/pages/ComicWidget.dart';
 
 import 'package:flutter/material.dart';
 
@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget{
 
 }
 class _HomePageState extends State<HomePage>{
-  List<Widget>screens=[ListWidget(),FavouriteWidget()];
+  List<Widget>screens=[ComicWidget(),FavouriteWidget()];
   List<Widget>titles =[
     Text("Comics",
     style: TextStyle(

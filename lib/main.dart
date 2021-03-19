@@ -1,7 +1,7 @@
 import 'package:comics/bloc/BlockProvider.dart';
 import 'package:comics/bloc/ComicsBloc.dart';
 import 'package:comics/pages/HomePage.dart';
-import 'package:comics/pages/ListWidget.dart';
+import 'package:comics/pages/ComicWidget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'Chango-Regular',
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the

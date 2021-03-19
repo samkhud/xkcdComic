@@ -1,4 +1,4 @@
-#Thu Mar 18 14:09:48 CET 2021
+#Fri Mar 19 08:08:20 CET 2021
 base.0=/Users/sameralkhodary/programming/flutter/comics/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

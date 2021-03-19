@@ -4,7 +4,8 @@ import 'package:comics/bloc/ComicsBloc.dart';
 import 'package:comics/model/Comic.dart';
 import 'package:comics/repository/ComicRepository.dart';
 import 'package:comics/repository/Repositroy.dart';
-import 'package:comics/widgets/ListItem.dart';
+import 'package:comics/widgets/ExtenedComicWidget.dart';
+import 'package:comics/widgets/ListItemWidget.dart';
 import 'package:flutter/material.dart';
 
 class FavouriteWidget extends StatefulWidget {
@@ -25,6 +26,7 @@ class FavouriteWidgetState extends State<FavouriteWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Color.fromARGB(100, 245,245,245),
       child: StreamBuilder<List<Comic>>(
           stream: _bloc.outLikedComics,
           builder: (BuildContext context, AsyncSnapshot<List<Comic>> snap) {
@@ -34,10 +36,9 @@ class FavouriteWidgetState extends State<FavouriteWidget> {
                   
                   itemCount: snap.data.length,
                   itemBuilder: (BuildContext context, int index) {
-                    return ListItem(
+                    return ListItemWidget(
                       comic: snap.data[index],
-                      bottons: false,
-                      bloc: _bloc,
+                     
                     );
                   });
             } else if (snap.hasError) {
@@ -49,7 +50,7 @@ class FavouriteWidgetState extends State<FavouriteWidget> {
                   child: Text(
                 "Nothing is liked..",
                 style: TextStyle(
-                    fontFamily: "chango-Regular",
+                   
                     color: Colors.black,
                     fontSize: 30,
                     fontWeight: FontWeight.bold),
