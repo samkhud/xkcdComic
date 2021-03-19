@@ -11,5 +11,11 @@ class Comic{
 
     return comic;
   }
+  @override
+  String toString() {
+  return "Comic("+_title+" , "+_img+")";
+   }
+   @override
+   bool operator ==(Object other)=> other is Comic && other._title==this._title && this._img== other._img;
 
 }

@@ -68,8 +68,9 @@ class ExtendedComicWidget extends StatelessWidget {
                                             ],),
                                             child: Material(
                                             
-                                              // button color
+                                             
                                               child: InkWell(
+                                                key: Key("dislike_button"),
                                                 splashColor:
                                                     Colors.red, // inkwell color
                                                 child: SizedBox(
@@ -105,6 +106,7 @@ class ExtendedComicWidget extends StatelessWidget {
                                             
                                               // button color
                                               child: InkWell(
+                                                key:Key("like_button"),
                                                 splashColor:
                                                     Colors.green, // inkwell color
                                                 child: SizedBox(
